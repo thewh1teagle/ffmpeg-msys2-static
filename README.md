@@ -1,6 +1,6 @@
 # ffmpeg-msys2-static
 
-Trying to static link [rust-ffmpeg](https://github.com/zmwangx/rust-ffmpeg) inside `msys2` `ucrt64`
+Trying to static link [rust-ffmpeg](https://github.com/zmwangx/rust-ffmpeg) inside `msys2` `ucrt64` with [avbuild](https://github.com/wang-bin/avbuild)
 
 1. Download [msys2](https://www.msys2.org/) and open `ucrt64` terminal
 2. Install packages
