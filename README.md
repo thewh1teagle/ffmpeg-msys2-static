@@ -1,0 +1,1 @@
+# ffmpeg-msys2-static
