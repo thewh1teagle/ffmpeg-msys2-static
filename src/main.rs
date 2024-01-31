@@ -1,3 +1,4 @@
+use ffmpeg_next;
 fn main() {
-    println!("Hello, world!");
+    ffmpeg_next::init().unwrap();
 }
