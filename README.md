@@ -5,7 +5,7 @@ Trying to static link [rust-ffmpeg](https://github.com/zmwangx/rust-ffmpeg) insi
 1. Download [msys2](https://www.msys2.org/) and open `ucrt64` terminal
 2. Install packages
 ```console
-pacman -S --needed $MINGW_PACKAGE_PREFIX-{rust,ffmpeg,dlfcn,headers-git}
+pacman -S --needed $MINGW_PACKAGE_PREFIX-{rust,ffmpeg,dlfcn,headers-git,clang}
 ```
 3. Clone the repo
 ```console
