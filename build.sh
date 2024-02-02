@@ -11,4 +11,5 @@ fi
 
 # Build
 export FFMPEG_DIR=$FFMPEG_NAME
+export C_INCLUDE_PATH=${MINGW_PREFIX}/include/libswscale
 cargo build --release
